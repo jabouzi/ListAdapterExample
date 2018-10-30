@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="324dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:contentDescription="Manulife Logo"
+        android:foregroundGravity="center_vertical"
+        android:paddingBottom="4dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="4dp"
+        android:src="@drawable/manulife_logo_green"
+        />
+</LinearLayout>
